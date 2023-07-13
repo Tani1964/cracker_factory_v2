@@ -1,0 +1,192 @@
+<!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/dist/output.css" rel="stylesheet">
+    </head>
+    <body class="grid bg-[url('/img/background.svg')] text-primary2 w-screen overflow-x-clip">
+        <div class="mx-auto  ">
+            <!-- Header -->
+            <div class="py-14 grid grid-flow-col items-center">
+                <div>
+                    <img src="./img/logo_light.svg" alt="">
+                </div>
+                <div class="grid items-center">
+                    <ul class="grid grid-flow-col">
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Product</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Community</a></li>
+                    </ul>
+                </div>
+                <div class="grid justify-end">
+                    <a class="bg-primary1 px-10 py-4 rounded-full self-center text-white shadow-3xl w-fit" href="">Get Started</a>
+                </div>
+            </div>
+            <!-- Main 1-->
+            <div class="text-gray-500 text-xl">
+                <div class="grid grid-flow-col">
+                    <div class="">
+                        <h1 class="text-primary2 text-7xl font-semibold pb-8">Bring everyone <br> together to build <br> better products.</h1>
+                        <p class="text-gray-500 pb-8 text-xl ">Manage makes it simple for software teams <br> to plan day-to-day tasks while keeping the <br> larger team goals in view.</p>
+                        <a class="text-white bg-primary1 px-8 py-3 rounded-full" href="">Get Started</a>
+                    </div>
+                    <div class="">
+                        <div>
+                            <img class="" src="./img/illustration-intro.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-flow-col">
+                    <div class="">
+                        <h1 class="text-primary2 text-4xl font-bold pb-8">What's different about <br> Manage?</h1>
+                        <p>Manage provides all the functionality your <br> team needs, without the complexity. Our <br> software is tailor-made for modern digital <br>product teams.</p>
+                    </div>
+                    <div>
+                        <div class="grid grid-flow-col pb-8">
+                            <div class="">
+                                <h2 class="text-center text-white text-xl font-bold bg-primary1 rounded-full px-7 py-2.5 w-20">01</h2>
+                            </div>
+                            <div>
+                                <h4 class="text-primary2 font-bold pb-8">Track company-wide progress</h4>
+                                <p>See how your day-to-day tasks fit into the wider <br> vision. Go from tracking progress at the <br>milestone level all the way done to the smallest <br> of details. Never lose sight of the bigger picture <br> again.</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-flow-col pb-8">
+                            <div>
+                                <h2 class="text-center text-white text-xl font-bold bg-primary1 rounded-full px-7 py-2.5 w-20">02</h2>
+                            </div>
+                            <div>
+                                <h4 class="text-primary2 font-bold pb-8">Advanced built-in reports</h4>
+                                <p>Set internal delivery estimates and track <br> progress toward company goals. Our <br> customisable dashboard helps you build out the <br> reports you need to keep key stakeholders <br> informed.</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-flow-col pb-8">
+                            <div>
+                                <h2 class="text-center text-white text-xl font-bold bg-primary1 rounded-full px-7 py-2.5 w-20">03</h2>
+                            </div>
+                            <div class="-ml-6">
+                                <h4 class="text-primary2 font-bold pb-8">Everything you need to know in one place</h4>
+                                <p>Stop jumping from one service to another to <br>communicate, store files, track tasks and share <br>documents. Manage offers an all-in-one team <br>productivity solution.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- main 2 -->
+        <div class="grid grid-flow-row justify-items-center gap-8 w-screen my-20">
+            <div>
+                <h3 class="text-primary2 text-4xl font-bold">What they've said</h3>
+            </div>
+            <div id="slider" class="grid grid-flow-col gap-8 text-primary3 text-xl py-12 transition transform duration-300 -translate-x-2/3 w-screen">
+                <div class="grid grid-flow-row gap-4 justify-items-center h-64 text-center bg-grey-bg py-20 px-8 relative  w-tests pt-0 ">
+                    <img class="w-20 h-20 -mt-10" src="./img/avatar-anisha.png" alt="">
+                    <h4 class="text-primary2">Anisha Li</h4>
+                    <p>
+                        “Manage has supercharged our team’s workflow. The ability to
+                        maintain visibility on larger milestones at all times keeps
+                        everyone motivated.”
+                    </p>
+                </div>
+                <div class="grid grid-flow-row gap-4 justify-items-center h-64 text-center bg-grey-bg py-20 px-8 relative  w-tests pt-0 ">
+                    <img class="w-20 h-20 -mt-10" src="./img/avatar-ali.png" alt="">
+                    <h4 class="text-primary2">Ali Bravo</h4>
+                    <p>
+                        “We have been able to cancel so many other subscriptions since
+                        using Manage. There is no more cross-channel confusion and
+                        everyone is much more focused.”
+                    </p>
+                </div>
+                <div class="grid grid-flow-row gap-4 justify-items-center h-64 text-center bg-grey-bg py-20 px-8 relative  w-tests pt-0 ">
+                    <img class="w-20 h-20 -mt-10" src="./img/avatar-richard.png" alt="">
+                    <h4 class="text-primary2">Richard Watts</h4>
+                    <p>
+                        “Manage allows us to provide structure and process. It keeps us
+                        organized and focused. I can’t stop recommending them to everyone
+                        I talk to!”
+                    </p>
+                </div>
+                <div  class="grid grid-flow-row gap-4 justify-items-center h-64 text-center bg-grey-bg py-20 px-8 relative  w-tests pt-0 ">
+                    <img class="w-20 h-20 -mt-10" src="./img/avatar-shanai.png" alt="">
+                    <h4 class="text-primary2">Shanai Gough</h4>
+                    <p>
+                        “Their software allows us to track, manage and collaborate on our
+                        projects from anywhere. It keeps the whole team in-sync without
+                        being intrusive.”
+                    </p>
+                </div>
+            </div>
+            <div>
+                <a class="bg-primary1 px-10 py-4 rounded-full self-center text-white shadow-3xl w-fit" href="">Get Started</a>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class=" bg-[url('/img/background.svg')]">
+            <div class="grid grid-flow-col bg-primary1  px-28 py-14 opacity-90">
+                <div>
+                    <h1 class="text-white text-3xl font-semibold pb-8">Simplify how your team <br> works today.</h1>
+                </div>
+                <div class="grid justify-end items-center">
+                    <div>
+                        <a class="text-primary1 bg-white px-8 py-3 rounded-full" href="">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-flow-col bg-dark-bg px-28 py-24 ml-0 text-white">
+            <div class="grid grid-flow-row w-72 h-56">
+                <div>
+                    <img src="./img/logo-dark.svg" alt="">
+                </div>
+                <div>
+
+                </div>
+                <div class="grid items-center">
+                    <ul class="grid grid-flow-col list-none">
+                        <li><img class="w-7 h-7" src="./img/icon-facebook.svg" alt=""></li>
+                        <li><img class="w-7 h-7" src="./img/icon-youtube.svg" alt=""></li>
+                        <li><img class="w-7 h-7" src="./img/icon-twitter.svg" alt=""></li>
+                        <li><img class="w-7 h-7" src="./img/icon-pinterest.svg" alt=""></li>
+                        <li><img class="w-7 h-7" src="./img/icon-instagram.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid grid-flow-col list-none ">
+                <div class="gap-4">
+                    <li class="leading-6 text-xl pb-8"><a href="">Home</a></li>
+                    <li class="leading-6 text-xl pb-8"><a href="">Pricing</a></li>
+                    <li class="leading-6 text-xl pb-8"><a href="">Products</a></li>
+                    <li class="leading-6 text-xl pb-8"><a href="">About Us</a></li>
+                </div>
+                <div>
+                    <li class="leading-6 text-xl pb-8"><a href="">Careers</a></li>
+                    <li class="leading-6 text-xl pb-8"><a href="">Community</a></li>
+                    <li class="leading-6 text-xl pb-8"><a href="">Privacy Policy</a></li>
+                </div>
+            </div>
+            <div class="grid grid-flow-row">
+                <div class="">
+                    <form class="grid grid-flow-col" action="">
+                        <input class="w-64 h-14 rounded-full py-4 px-8 text-sm -mr-10" type="text" placeholder="Updates in your inbox...">
+                        <button class="leading-6 text-xl bg-primary1 rounded-full p-4">Go</button>
+                    </form>
+                </div>
+                <div class="grid justify-end text-gray-400 text-lg items-center">
+                    <p>Copyright 2020. All Rights Reserved.</p>
+                </div>
+            </div>
+        
+        <script src="./index.js"></script>
+    </body>
+</html>
